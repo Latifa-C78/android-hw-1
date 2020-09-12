@@ -1,0 +1,21 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+    
+        int age=15;
+        String name = "latifa";
+System.out.print(age);
+
+System.out.print(name);
+
+latifa(15,"latifa");
+
+     }
+     public static void latifa(int a,String n){
+         if(a>18)
+         System.out.print("مبروك يا لطيفه سوف تحصل على رخصة القياده");
+else
+System.out.print("للاسف يا لطيفه مازلت صغير للحصول على رخصة القياده");
+
+     }
+}
